@@ -68,6 +68,8 @@ GEM
     private_pub (1.0.3)
       faye
     rack (1.5.2)
+    rack-cors (0.2.8)
+      rack
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.0.0)
@@ -114,5 +116,6 @@ PLATFORMS
 DEPENDENCIES
   foreman
   private_pub
+  rack-cors
   rails (= 4.0.0)
   thin
