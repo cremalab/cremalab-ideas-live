@@ -1,28 +1,20 @@
-== README
+#Vot.io LIVE
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+##Deploying
 
-* Ruby version
+Update the config/deploy.rb file to the location of the server you want.
 
-* System dependencies
+Run 'cap deploy:setup'
 
-* Configuration
+Run 'cap deploy:run'
 
-* Database creation
+Now you are up and running!
 
-* Database initialization
+##Resources
 
-* How to run the test suite
+Based off of Rails Casts #133 Revised, #335, and #337.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Also the best practice guide from https://github.com/faye/faye/wiki/Deploy-Best-Practices
