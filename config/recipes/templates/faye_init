@@ -15,7 +15,7 @@ set -e
 AS_USER=<%= faye_user %>
 RAILS_ENV=production
 APP_ROOT=<%= current_path %>
-FAYE_CONF="faye.ru"
+FAYE_CONF="private_pub.ru"
 PID=<%= faye_pid %>
 CMD="cd <%= current_path %>; RAILS_ENV=$RAILS_ENV bundle exec rackup $FAYE_CONF -s thin -E $RAILS_ENV -D --pid $PID"
 

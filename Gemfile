@@ -9,3 +9,4 @@ gem 'foreman'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'capistrano'
+gem 'rvm-capistrano'
