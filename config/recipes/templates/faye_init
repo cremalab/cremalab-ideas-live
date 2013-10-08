@@ -18,7 +18,7 @@ APP_ROOT=<%= current_path %>
 FAYE_CONF="private_pub.ru"
 PID=<%= faye_pid %>
 PORT=80
-CMD="cd <%= current_path %>; RAILS_ENV=$RAILS_ENV bundle exec rackup $FAYE_CONF -s thin -E $RAILS_ENV -D --pid $PID "
+CMD="cd <%= current_path %>; RAILS_ENV=$RAILS_ENV bundle exec rvmsudo rackup $FAYE_CONF -s thin -p $PORT -E $RAILS_ENV -D --pid $PID "
 set -u
 
 OLD_PIN="$PID.oldbin"
