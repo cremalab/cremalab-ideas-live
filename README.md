@@ -1,7 +1,6 @@
 # Vot.io LIVE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Faye server for Vot.io. It runs with [suite_api](https://github.com/cremalab/suite_api) and [engagement-ring](https://github.com/cremalab/engagement-ring)
 
 ## Run in development
 
